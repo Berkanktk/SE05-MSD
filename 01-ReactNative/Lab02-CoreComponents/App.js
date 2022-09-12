@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import MyComponent from './MyComponent'
+import MyComponent from './components/MyComponent'
+import LoopText from './components/Text.js'
+
 
 export default function App() {
   return (
@@ -8,6 +10,7 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
       <MyComponent />
+      <LoopText/>
     </View>
   );
 }
