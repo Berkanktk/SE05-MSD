@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "title": "Go shopping",
+      "description": "2 milk, 1 egg",
+      "date": "Tue Oct 25 2022",
+      "prioritize": false,
+      "id": 1
+    },
+    {
+      "title": "Start MD Assignment",
+      "description": "Start on the PWA assignment.",
+      "date": "Tue Oct 26 2022",
+      "prioritize": true,
+      "id": 2
+    },
+    {
+      "title": "Take a walk",
+      "description": "Go walking for 45 minutes.",
+      "date": "Wed Oct 26 2022",
+      "prioritize": false,
+      "id": 3
+    }
+  ]
+}

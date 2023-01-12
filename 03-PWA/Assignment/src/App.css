@@ -1,0 +1,167 @@
+/* --------------- HTML Elements --------------- */
+html {
+  background: linear-gradient(45deg, #49a09d, #5f2c82) fixed;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 8px;
+  color: white;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+/* --------------- Headers --------------- */
+.header {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.subHeader {
+  margin-top: -4px;
+  font-size: 14px;
+  color: #989898;
+  margin-bottom: 20px;
+}
+
+/* --------------- Add Task --------------- */
+.formFrame {
+  overflow: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.formItem {
+  padding: 10px;
+}
+
+.submitBtn {
+  text-align: center;
+}
+
+/* --------------- Tasks --------------- */
+.tasks {
+  overflow: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.task:hover {
+  scale: 1.012;
+  transition: all .4s ease;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 90%;
+}
+
+/* --------------- Tasks and Form View (Media Query) --------------- */
+/* Phones */
+@media only screen
+and (max-device-width: 480px) {
+  .task {
+    padding: 5px 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 90%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+
+  .addForm {
+    padding: 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 90%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+}
+
+/* Bigger phones */
+@media only screen
+and (min-width: 480px)
+and (max-device-width: 680px){
+  .task {
+    padding: 5px 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+
+  .addForm {
+    padding: 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 80%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+}
+
+/* Tablets */
+@media only screen
+and (min-width: 680px)
+and (max-device-width: 1280px) {
+  .task {
+    padding: 5px 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 50%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+
+  .addForm {
+    padding: 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 50%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width: 1280px) {
+  .task {
+    padding: 5px 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 25%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+
+  .addForm {
+    padding: 20px;
+    border-radius: 2rem;
+    margin: 10px;
+    width: 25%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+}
