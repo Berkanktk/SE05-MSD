@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+.expo-shared/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.idea/
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# Environment file
+.env
+
+# Temporary files
+Temp.js
